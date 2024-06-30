@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url('/fotog.jpg');
+  background-image: url('../img/fotog.jpg');
   background-position: center;
 }
 
