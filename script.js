@@ -126,8 +126,10 @@ async function initializeWeather() {
 }
 
 refreshButton.addEventListener("click", async () => {
+  console.log("Оновлення даних...");
   try {
     await loadWeather();
+    console.log("Дані оновлено успішно.");
   } catch (error) {
     console.error("Помилка під час оновлення погоди:", error);
   }
